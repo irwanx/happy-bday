@@ -145,12 +145,18 @@ const _slideEnam = function () {
 };
 
 new TypeIt("#teks1", {
+  strings: ["Assalamualaikum Wr. Wb", " ", "Saya atas nama Irwan X Yans pada hari ini Minggu, 18 juli 2021 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 17</b>", " ", "Kepada Yulianti, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Irwan x, Mas ganteng :)"],
+  startDelay: 4000,
+  speed: 75,
+  waitUntilVisible: true
+}).go();
+
+new TypeIt("#teks2", {
   strings: ["Haii cabi!!", "Happy Birthday ya..", " ", "Ciie udah 17 tahun, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
 }).go();
-
 
 new TypeIt("#trims", {
   strings: ["Terimakasih."],
